@@ -1,0 +1,7 @@
+<h1>Markytwit</h1>
+
+<%= form_tag("/submit") do %>
+  <%= label_tag(:u, "Enter a Twitter username:") %>
+  @<%= text_field_tag(:u) %>
+  <%= submit_tag("Go") %>
+<% end %>
