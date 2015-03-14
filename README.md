@@ -1,2 +1,2 @@
 # markytwit
-A simple webapp that will return markov chains based on a user's tweets.
+A simple webapp that will return markov chains based on a user's tweets. Powered by sferik's [Twitter Gem](https://github.com/sferik/twitter) and zolrath's [Marky Markov Gem](https://github.com/zolrath/marky_markov).
