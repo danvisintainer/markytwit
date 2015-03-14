@@ -1,1 +1,23 @@
-<h1>About goes here!</h1>
+<%= render "layouts/header" %>
+  <div class="jumbotron">
+    <h2>MarkyTwit by Dan Visintainer</h2>
+      <p class="lead">
+        MarkyTwit is a little Rails app that was extremely and heavily inspired by <a href="http://yes.thatcan.be/my/next/tweet/">That can be my next tweet</a> and TofuProject (which doesn't appear to be up anymore). This is really just a way for me to practice programming in Rails.
+      </p>
+
+      <p class="lead">
+        Basically, all it does is pull in some of a given user's latest tweets (up to 600) and generates a <a href="http://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>, producing a sentence that sounds oddly like the user. Or something like that. It won't work for private or suspended accounts. Nobody's tweets are persisted here.
+      </p>
+
+      <p class="lead">
+        This project is powered by <a href="http://rubyonrails.org">Rails</a>, <a href="https://github.com/sferik/twitter">sferik's Twitter Gem</a>, and <a href="https://github.com/zolrath/marky_markov">zolrath's Marky Markov gem</a>.
+      </p>
+
+      <p class="lead">
+        <a href="https://github.com/danvisintainer/markytwit">View MarkyTwit's GitHub page</a>
+      </p>
+
+      <p>
+        Coded over the course of a rather uneventful saturday by <a href="http://www.danvisintainer.com">Dan Visintainer</a>
+      </p>
+  </div>

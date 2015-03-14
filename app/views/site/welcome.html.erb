@@ -1,7 +1,13 @@
-<h1>Markytwit</h1>
+<body>
+<div class="container">
+  <div class="jumbotron">
+    <p><center><h1>markytwit</h1></center></p>
 
-<%= form_tag("/submit") do %>
+  <center><div class="lead"><%= form_tag("/submit") do %>
   <%= label_tag(:u, "Enter a Twitter username:") %>
   @<%= text_field_tag(:u) %>
   <%= submit_tag("Go") %>
-<% end %>
+<% end %></div></center>
+  </div>
+</div>
+</body>
